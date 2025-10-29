@@ -28,6 +28,8 @@ signed main(){
 
             if(l>r){
                 ans++;
+                l=m[i].first;
+                r=m[i].second;
             }
         }
 
