@@ -40,11 +40,8 @@ signed main(){
             }
         }
 
-<<<<<<< HEAD
-=======
         // cout<<'*'<<c<<'*'<<endl;
 
->>>>>>> a3ca6b069e34476aae5903271bff19032c4c37ff
         string d="";
 
         int i=0;
@@ -59,18 +56,12 @@ signed main(){
             }else{
                 d+=a[j++];
             }
-<<<<<<< HEAD
-        }
-
-        cout<<d<<endl;
-=======
 
             // cout<<d<<" "<<i<<" "<<j<<endl;
         }
 
         cout<<d<<endl;
         // cout<<a.length()<<endl;
->>>>>>> a3ca6b069e34476aae5903271bff19032c4c37ff
         
     }
     return 0;
