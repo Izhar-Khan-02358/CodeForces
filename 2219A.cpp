@@ -12,7 +12,7 @@ void solve() {
 
     int u=2*(p+2*q)+1;
 
-    int w=-1,v=-1;
+    int n=-1,m=-1;
 
     for(int i=3;i*i<=u;i+=2){
 
@@ -20,17 +20,24 @@ void solve() {
             int a=i;
             int b=u/i;
 
-            w=(a-1)/2;
-            v=(b-1)/2;
+            int w=(a-1)/2;
+            int v=(b-1)/2;
 
-            break;
+            int f=(w+1)*v;
+            int j=(v+1)*w;
+
+            if(f>=q && j>=q){
+                n=w;
+                m=v;
+                break;
+            }
         }
     }
 
-    if(w==-1){
-        cout<<w<<endl;
+    if(n==-1){
+        cout<<n<<endl;
     }else{
-        cout<<w<<" "<<v<<endl;
+        cout<<n<<" "<<m<<endl;
     }
 }
 
