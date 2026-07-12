@@ -9,6 +9,11 @@ const int N=2*(1e5)+1;
 void solve() {
     int n;
     cin>>n;
+
+    if(n==1){
+        cout<<1<<endl;
+        return;
+    }
     
     if(n%2){
         cout<<-1<<endl;
