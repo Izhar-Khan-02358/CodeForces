@@ -47,6 +47,8 @@ void solve() {
             cout<<"BUG"<<endl;
             return;
         }
+
+        st.insert({x, y});
     }
 
     cout<<"OK"<<endl;
